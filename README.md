@@ -16,7 +16,7 @@ As a general workflow, you may benefit from following this paradigm when complet
   - The above two bullets go together like a horse and carriage. In order to solve complex algorithm challenges, we *must* be able to trust that our sub-functions perform accurately and as expected. [(Unit Testing is invaluable here!)](https://en.wikipedia.org/wiki/Unit_testing) This enables us to incapsulate our logic into variable/function names without needing to constantly re-check what a function does or what a value is. Externalize!
 
 5. Refactor
-  - Assert that all arguments entering your function are valid See: [Data Validation](https://en.wikipedia.org/wiki/Data_validation). Simultaneously, address any and all [corner cases](https://en.wikipedia.org/wiki/Corner_case)
+  - Assert that all arguments entering your function are valid. (See: [Data Validation](https://en.wikipedia.org/wiki/Data_validation)). Simultaneously, address any and all [corner cases](https://en.wikipedia.org/wiki/Corner_case)
   - Eliminate violations of the DRY principle.
   - Consider the time and space complexity of your solution. Some common questions you should be asking are:
     - "Am I iterating more than I need to?"
