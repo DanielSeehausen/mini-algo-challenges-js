@@ -1,7 +1,9 @@
 # Complete the challenges!
 Do not look up the solutions to these problems while working on them! Neither on the interwebs nor in ./test/solutions.js!
 
-As a general workflow, you may benefit from following this structure when completing algorithm challenges:
+When completing these, try to complete as many prompts/problems (found in challenges/\*.js) as possible. Try to gauge which prompts are easiest (including the bonuses) and go for the low hanging fruit first. 
+
+As a general workflow, you may benefit from following this structure when completing algorithm challenges. How strict you want to be depends on the size of the challenge:
 
 #### 1. Read the problem/prompt. Read it again! Know the inputs/outputs to a T!
 
@@ -16,12 +18,12 @@ As a general workflow, you may benefit from following this structure when comple
   * The above two bullets go together like a horse and carriage. In order to solve complex algorithm challenges, we *must* be able to trust that our sub-functions perform accurately and as expected. [(unit testing is invaluable here!)](https://en.wikipedia.org/wiki/Unit_testing) This enables us to incapsulate our logic into variable/function names without needing to constantly re-check what a function does or what a value is. Externalize!
 
 #### 5. Refactor
-  * Assert that all arguments entering your function are valid. (See: [Data Validation](https://en.wikipedia.org/wiki/Data_validation)). Simultaneously, address any and all [corner cases](https://en.wikipedia.org/wiki/Corner_case)
-  * Eliminate violations of the DRY principle.
+  * Assert that all arguments entering your function are valid. (See: [Data Validation](https://en.wikipedia.org/wiki/Data_validation)). Simultaneously, address any and all [corner cases](https://en.wikipedia.org/wiki/Corner_case). (i.e. you have a function that mutates an array. Did you make sure you handled what occurs if an empty array is passed?)
+  * Eliminate violations of the DRY principle
   * Consider the time and space complexity of your solution. Some common questions you should be asking are:
     * "Am I iterating more than I need to?"
-    * "Am I creating new variables than I need?"
-    * "If my solution is [brute force](https://en.wikipedia.org/wiki/Brute-force_search), does there exist a solution that is not?"
+    * "Am I creating new variables more than I need?"
+    * "If my solution is [brute force](https://en.wikipedia.org/wiki/Brute-force_search) (i.e. we are checking every possible option for the solution), does there exist a solution that can produce an accurate result without checking every option?"
   * See step 5
 
 
