@@ -9,7 +9,7 @@ As a general workflow, you may benefit from following this structure when comple
 
 #### 3. Describe your intended solution. Write it out in pseudo-code/comments/whiteboard, whatever speaks to *you* best. Don't keep the solution in your head! We want to externalize all of the thinking that we can.
 
-#### 4. [KISS. KISS as hard as you can.](https://en.wikipedia.org/wiki/KISS_principle) (<-- link)
+#### 4. [KISS. KISS as hard as you can.](https://en.wikipedia.org/wiki/KISS_principle)
   * Implement the solution as simply as possible for you. This often entails being more verbose, having more functions than you think you need, and writing more explicitly than is required. In this step, it is crucial to delay optimization. Your concern should be a working solution, not the ideal solution.
   * Do both [unit testing](https://en.wikipedia.org/wiki/Unit_testing) as well as solution testing. Copy and pasting into a running node session in console is an inexpensive (effort wise) way to start! If you plan on running the file many times to test, make relevant testing calls at the end of the file and implement meaningful print statements ('\t' is an excellent way to start organizing terminal output)
   * Make sure that your variables and functions **accurately represent what they do/what they are. (even if they are painfully verbose!)**. This is to continue externalizing our brain power.
