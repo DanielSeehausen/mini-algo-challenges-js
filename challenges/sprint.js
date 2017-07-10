@@ -1,4 +1,5 @@
 // You are not restricted to the pre-named/defined functions. Write as many or as few as you want.
+// I am the hardest/most time consuming one. Don't start with me.
 
 /* For this challenge, we are going to solve Euler 14 (a.k.a. Longest Collatz Sequence)
  * The prompt is available here: https://projecteuler.net/problem=14
