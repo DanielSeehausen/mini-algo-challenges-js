@@ -1,7 +1,7 @@
 # Complete the challenges!
 Do not look up the solutions to these problems while working on them! Neither on the interwebs nor in ./test/solutions.js!
 
-When completing these, try to complete as many prompts/problems (found in challenges/\*.js) as possible. Try to gauge which prompts are easiest (including the bonuses) and go for the low hanging fruit first. 
+When completing these, try to complete as many prompts/problems (found in challenges/\*.js) as possible. Try to gauge which prompts are easiest (including the bonuses) and go for the low hanging fruit first.
 
 As a general workflow, you may benefit from following this structure when completing algorithm challenges. How strict you want to be depends on the size of the challenge:
 
@@ -24,6 +24,7 @@ As a general workflow, you may benefit from following this structure when comple
     * "Am I iterating more than I need to?"
     * "Am I creating new variables more than I need?"
     * "If my solution is [brute force](https://en.wikipedia.org/wiki/Brute-force_search) (i.e. we are checking every possible option for the solution), does there exist a solution that can produce an accurate result without checking every option?"
+  * If you are able to reduce the lines of code while maintaining the same functionality *and* legibility, do it. Ask yourself: "If someone walked up to my computer and read this solution, will they be able to understand it quicker or slower after I make this change?"
   * See step 5
 
 
